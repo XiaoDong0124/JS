@@ -1,0 +1,6 @@
+div{
+    width: 70%;
+    height: 400px;
+    background-color: bisque;
+    cursor: url(man.png),auto;
+}
