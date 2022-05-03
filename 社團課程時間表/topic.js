@@ -1,7 +1,7 @@
 let topic =[
     "尚未開學",
     "國定假日",
-    "還就準備",
+    "環境準備",
     "隨機性",
     "重複性"
 ];
@@ -13,6 +13,7 @@ function setMonthAndDay(starMonth,starDay){
     startDate.setSeconds(0);
  //一次設定好月份跟日期   
 }
+
 
 setMonthAndDay(2,21);
 
