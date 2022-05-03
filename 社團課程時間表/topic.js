@@ -1,9 +1,10 @@
 let topic =[
-    "尚未開學",
-    "國定假日",
+    "停課-尚未開學",
+    "停課-國定假日",
     "環境準備",
     "隨機性",
-    "重複性"
+    "重複性",
+    "統計運算"
 ];
 let startDate = new Date(); // 變成日期格式的意思
 function setMonthAndDay(starMonth,starDay){
@@ -15,5 +16,5 @@ function setMonthAndDay(starMonth,starDay){
 }
 
 
-setMonthAndDay(2,21);
+setMonthAndDay(5,30);
 

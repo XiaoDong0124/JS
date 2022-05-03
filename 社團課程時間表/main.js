@@ -13,5 +13,8 @@ $(function(){
             //toLocaleDateString轉換字串變好看
             `<tr><td>${x+1}</td><td>${(new Date(startDate.getTime()+7*x*millisecsPerDay)).toLocaleDateString().slice(5) }</td><td>${topic[x]}</td></tr>`
         );
+    $(topic[x].slice(0,1)).on("停課",function(){
+        $(this).css("color","gray");
+    });
     }
 });

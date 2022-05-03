@@ -1,0 +1,12 @@
+body{
+    text-align: center; 
+}
+#courseTable{
+    margin: auto;
+    font-size: 20px;
+    width:60%;
+}
+td{
+    border-bottom:solid 2px coral ;
+   
+}
